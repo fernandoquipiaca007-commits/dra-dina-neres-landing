@@ -67,35 +67,35 @@ export function Hero() {
   };
 
   return (
-    <section className="pt-10 pb-16 px-4 md:px-8 max-w-[1100px] mx-auto flex flex-col items-center">
+    <section className="pt-8 md:pt-12 pb-16 px-4 md:px-8 max-w-[1280px] mx-auto flex flex-col items-center">
       
       {/* Top Headline Section */}
       <div className="w-full max-w-4xl text-center space-y-4">
         {/* Pre-title */}
-        <p className="text-[#555555] text-sm md:text-base font-medium leading-snug">
+        <p className="text-[#212424] text-base md:text-lg font-normal leading-snug">
           Você é Professor(a) do Ensino Fundamental ou Médio e está preocupado com a sua aposentadoria?
         </p>
 
         {/* Main Headline */}
-        <h1 className="text-[#1a1a1a] text-2xl md:text-3xl lg:text-[32px] font-extrabold leading-snug max-w-3xl mx-auto">
+        <h1 className="text-[#212424] text-xl md:text-2xl lg:text-[28px] font-extrabold leading-[1.3] max-w-3xl mx-auto tracking-tight">
           Em 1 hora, vou te mostrar os principais erros que fazem professores perderem tempo e dinheiro na hora de se aposentar e como evitar cada um deles.
         </h1>
 
         {/* Subheadline Description */}
-        <p className="text-[#4a4a4a] text-xs md:text-sm lg:text-base max-w-3xl mx-auto leading-relaxed">
+        <p className="text-[#212424] text-base md:text-lg max-w-3xl mx-auto leading-relaxed">
           Participe da nossa Reunião Fechada e Exclusiva no Google Meet e descubra como evitar erros comuns do INSS contra professores e proteger o seu futuro com um bom planejamento.
         </p>
 
         {/* Event Info Highlight */}
         <div className="pt-2">
-          <p className="text-[#1a1a1a] font-bold text-sm md:text-base tracking-wide">
+          <p className="text-[#212424] font-extrabold text-base md:text-lg tracking-wide">
             Evento Online e Gratuito | 04 de Agosto | 19h
           </p>
         </div>
       </div>
 
       {/* Form Container */}
-      <div className="w-full max-w-[480px] mt-8">
+      <div className="w-full max-w-[546px] mt-8">
         <div
           id="inscricao"
           className="bg-white border-2 border-forest rounded-[16px] p-6 md:p-8 shadow-md"
@@ -230,20 +230,20 @@ export function Hero() {
       </div>
 
       {/* Post-form Text & Big CTA */}
-      <div className="w-full max-w-2xl text-center mt-8 space-y-3">
-        <p className="text-[#333333] text-xs md:text-sm font-medium">
+      <div className="w-full max-w-4xl text-center mt-10 space-y-3">
+        <p className="text-[#212424] text-base md:text-lg font-normal">
           Por Drª Diná Neres - Especialista em Planejamento Previdenciário para Professores
         </p>
 
-        <p className="text-[#1a1a1a] text-base md:text-lg font-bold tracking-tight">
+        <p className="text-[#212424] text-base md:text-xl font-bold tracking-tight">
           Não aceite trabalhar mais anos do que você deveria!
         </p>
 
         {/* Big Action CTA Button */}
-        <div className="pt-4 flex justify-center">
+        <div className="pt-6 flex justify-center w-full">
           <button
             onClick={handleScrollToForm}
-            className="w-full max-w-[580px] bg-forest hover:bg-forest-dark text-white font-extrabold py-4 md:py-5 px-6 md:px-8 rounded-xl uppercase tracking-wider transition-all duration-200 cursor-pointer shadow-lg hover:shadow-xl text-sm md:text-lg leading-snug"
+            className="w-full max-w-[960px] bg-forest hover:bg-forest-dark text-white font-extrabold py-5 md:py-6 px-6 md:px-10 rounded-xl uppercase tracking-wider transition-all duration-200 cursor-pointer shadow-lg hover:shadow-xl text-lg md:text-2xl lg:text-[28px] leading-snug"
           >
             QUERO GARANTIR MINHA VAGA AGORA!
           </button>

@@ -1,12 +1,13 @@
 @import "tailwindcss";
 
 @theme {
-  --font-sans: "Montserrat", "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Montserrat", ui-sans-serif, system-ui, sans-serif;
   --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+  --font-poppins: "Poppins", ui-sans-serif, system-ui, sans-serif;
   
-  --color-forest: #36473a;
-  --color-forest-dark: #27352a;
-  --color-forest-light: #485c4d;
+  --color-forest: #38493f;
+  --color-forest-dark: #2c3a32;
+  --color-forest-light: #485c50;
   --color-text-dark: #212424;
 }
 
@@ -21,18 +22,18 @@ body {
 .form-input {
   width: 100%;
   background-color: #ffffff;
-  border: 1px solid #c8d0c9;
+  border: 1px solid #d1d5db;
   border-radius: 8px;
-  padding: 12px 16px;
+  padding: 14px 16px;
   outline: none;
   color: #212424;
-  font-size: 15px;
+  font-size: 16px;
   transition: all 0.2s ease-in-out;
 }
 
 .form-input:focus {
   border-color: var(--color-forest);
-  box-shadow: 0 0 0 3px rgba(54, 71, 58, 0.15);
+  box-shadow: 0 0 0 3px rgba(56, 73, 63, 0.15);
 }
 
 /* Custom scrollbar matching forest green */
