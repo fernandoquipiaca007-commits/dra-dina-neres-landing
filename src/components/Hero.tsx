@@ -89,7 +89,7 @@ export function Hero() {
         {/* Event Info Highlight */}
         <div className="pt-1">
           <p className="text-[#212424] font-extrabold text-sm md:text-base lg:text-lg tracking-wide">
-            Evento Online e Gratuito | 04 de Agosto | 19h
+            Evento Online e Gratuito | 12 de Agosto | 19h
           </p>
         </div>
       </div>
