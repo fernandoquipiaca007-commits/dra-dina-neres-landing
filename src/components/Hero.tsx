@@ -67,12 +67,12 @@ export function Hero() {
   };
 
   return (
-    <section className="pt-8 md:pt-12 pb-16 px-4 md:px-8 max-w-[1280px] mx-auto flex flex-col items-center">
+    <section className="pt-4 md:pt-6 pb-12 px-4 md:px-8 max-w-[1280px] mx-auto flex flex-col items-center">
       
       {/* Top Headline Section */}
-      <div className="w-full max-w-4xl text-center space-y-4">
+      <div className="w-full max-w-4xl text-center space-y-3">
         {/* Pre-title */}
-        <p className="text-[#212424] text-base md:text-lg font-normal leading-snug">
+        <p className="text-[#212424] text-sm md:text-base lg:text-lg font-normal leading-snug">
           Você é Professor(a) do Ensino Fundamental ou Médio e está preocupado com a sua aposentadoria?
         </p>
 
@@ -82,23 +82,23 @@ export function Hero() {
         </h1>
 
         {/* Subheadline Description */}
-        <p className="text-[#212424] text-base md:text-lg max-w-3xl mx-auto leading-relaxed">
+        <p className="text-[#212424] text-sm md:text-base lg:text-lg max-w-3xl mx-auto leading-relaxed">
           Participe da nossa Reunião Fechada e Exclusiva no Google Meet e descubra como evitar erros comuns do INSS contra professores e proteger o seu futuro com um bom planejamento.
         </p>
 
         {/* Event Info Highlight */}
-        <div className="pt-2">
-          <p className="text-[#212424] font-extrabold text-base md:text-lg tracking-wide">
+        <div className="pt-1">
+          <p className="text-[#212424] font-extrabold text-sm md:text-base lg:text-lg tracking-wide">
             Evento Online e Gratuito | 04 de Agosto | 19h
           </p>
         </div>
       </div>
 
       {/* Form Container */}
-      <div className="w-full max-w-[546px] mt-8">
+      <div className="w-full max-w-[520px] mt-6">
         <div
           id="inscricao"
-          className="bg-white border-2 border-forest rounded-[16px] p-6 md:p-8 shadow-md"
+          className="bg-white border-2 border-forest rounded-[16px] p-5 md:p-7 shadow-md"
         >
           <AnimatePresence mode="wait">
             {formState === 'form' && (
@@ -110,7 +110,7 @@ export function Hero() {
                 transition={{ duration: 0.2 }}
                 className="space-y-4"
               >
-                <form onSubmit={handleSubmit} className="space-y-4">
+                <form onSubmit={handleSubmit} className="space-y-3.5">
                   {error && (
                     <div className="p-3 bg-red-50 border border-red-200 text-red-700 rounded-lg text-xs text-center font-medium">
                       {error}
@@ -230,8 +230,8 @@ export function Hero() {
       </div>
 
       {/* Post-form Text & Big CTA */}
-      <div className="w-full max-w-4xl text-center mt-10 space-y-3">
-        <p className="text-[#212424] text-base md:text-lg font-normal">
+      <div className="w-full max-w-4xl text-center mt-8 space-y-3">
+        <p className="text-[#212424] text-sm md:text-base font-normal">
           Por Drª Diná Neres - Especialista em Planejamento Previdenciário para Professores
         </p>
 
@@ -240,10 +240,10 @@ export function Hero() {
         </p>
 
         {/* Big Action CTA Button */}
-        <div className="pt-6 flex justify-center w-full">
+        <div className="pt-4 flex justify-center w-full">
           <button
             onClick={handleScrollToForm}
-            className="w-full max-w-[960px] bg-forest hover:bg-forest-dark text-white font-extrabold py-5 md:py-6 px-6 md:px-10 rounded-xl uppercase tracking-wider transition-all duration-200 cursor-pointer shadow-lg hover:shadow-xl text-lg md:text-2xl lg:text-[28px] leading-snug"
+            className="w-full max-w-[960px] bg-forest hover:bg-forest-dark text-white font-extrabold py-4 md:py-5 px-6 md:px-10 rounded-xl uppercase tracking-wider transition-all duration-200 cursor-pointer shadow-lg hover:shadow-xl text-lg md:text-2xl lg:text-[28px] leading-snug"
           >
             QUERO GARANTIR MINHA VAGA AGORA!
           </button>
