@@ -46,6 +46,10 @@ export function Hero() {
         throw new Error(supabaseError.message);
       }
 
+      if (typeof window !== 'undefined' && (window as any).fbq) {
+        (window as any).fbq('track', 'Lead');
+      }
+
       setFormState('success');
     } catch (err: any) {
       console.error('Erro na inscrição:', err);
