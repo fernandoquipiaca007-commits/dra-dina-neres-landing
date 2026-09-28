@@ -8,7 +8,7 @@ export function Hero() {
   const [error, setError] = useState<string | null>(null);
   const [phone, setPhone] = useState('');
 
-  const WhatsAppGroupLink = "https://chat.whatsapp.com/Ce7OMsCVr4k4MW4MBHirIu";
+  const WhatsAppGroupLink = "https://chat.whatsapp.com/HT75h98yltV0eybfav1GWH";
 
   const handlePhoneChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const raw = e.target.value.replace(/\D/g, '');
@@ -89,7 +89,7 @@ export function Hero() {
         {/* Event Info Highlight */}
         <div className="pt-1">
           <p className="text-[#212424] font-extrabold text-sm md:text-base lg:text-lg tracking-wide">
-            Evento Online e Gratuito | 12 de Agosto | 19h
+            Evento Online e Gratuito | 08 de Outubro | 19h
           </p>
         </div>
       </div>
